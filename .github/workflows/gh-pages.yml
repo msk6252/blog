@@ -6,7 +6,6 @@ on:
     branches:
       - master
 jobs:
-  if: 
   build:
     runs-on: ubuntu-latest
     steps:
