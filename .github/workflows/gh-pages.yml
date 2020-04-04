@@ -29,7 +29,7 @@ jobs:
         if: github.event.pull_request.merged == true
 
       - name: Deploy to Github pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v2
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
