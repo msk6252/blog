@@ -15,8 +15,6 @@ jobs:
 
       - name: Setup Hexo
         uses: heowc/action-hexo@master
-        with:
-          hugo-version: '4.2.0'
 
       - name: Build
         run: hexo --minify
