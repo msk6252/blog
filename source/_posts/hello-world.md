@@ -38,3 +38,4 @@ $ hexo deploy
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 <p style="color: red;">test</p>
+<p style="color: green;">test</p>
