@@ -99,5 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:msk6252/sample-github-pages.git
-  branch: gh-pages
+  repo: git@github.com:msk6252/msk6252.github.io
+  branch: master
