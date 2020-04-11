@@ -1,4 +1,4 @@
-name: github pages
+name: Netlify
 
 on:
   pull_request: 
