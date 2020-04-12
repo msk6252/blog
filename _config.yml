@@ -101,3 +101,10 @@ deploy:
   type: git
   repo: git@github.com:msk6252/msk6252.github.io
   branch: master
+
+# Sitemap Output
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+
