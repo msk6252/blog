@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: msk6252
 language: ja
-timezone: ''
+timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -99,5 +99,5 @@ theme: hexo-theme-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:msk6252/msk6252.github.io
+  repo: git@github.com:msk6252/blog
   branch: master
