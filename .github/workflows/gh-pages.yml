@@ -28,8 +28,11 @@ jobs:
         run: npm install netlify-cli --save
         if: github.event.pull_request.merged == true
 
-      - name: Build
+      - name: Clean
         run: npx hexo clean
+        if: github.event.pull_request.merged == true
+
+      - name: Build
         run: npx hexo generate
         if: github.event.pull_request.merged == true
 
