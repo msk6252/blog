@@ -29,6 +29,7 @@ jobs:
         if: github.event.pull_request.merged == true
 
       - name: Build
+        run: npx hexo clean
         run: npx hexo generate
         if: github.event.pull_request.merged == true
 
