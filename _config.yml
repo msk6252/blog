@@ -118,3 +118,29 @@ generator_amp:
     width: 1024
     height: 800
   warningLog: false
+
+html_minifier:
+  exclude:
+  removeComments: true
+  removeCommentsFromCDATA: false
+  removeCDATASectionsFromCDATA: false
+  collapseWhitespace: true
+  conservativeCollapse: true
+  preserveLineBreaks: true
+  collapseBooleanAttributes: false
+  removeAttributeQuotes: false
+  removeRedundantAttributes: false
+  preventAttributesEscaping: false
+  useShortDoctype: false
+  removeEmptyAttributes: false
+  removeScriptTypeAttributes: false
+  removeStyleLinkTypeAttributes: false
+  removeOptionalTags: false
+  removeIgnored: false
+  removeEmptyElements: false
+  lint: false
+  keepClosingSlash: false
+  caseSensitive: false
+  minifyJS: true
+  minifyCSS: true
+  minifyURLs: false
