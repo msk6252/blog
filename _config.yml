@@ -106,6 +106,15 @@ deploy:
 sitemap:
   path: sitemap.xml
 
+robotstxt:
+  useragent: "*"
+  disallow:
+    - /archives/
+    - /css/
+    - /js/
+  allow:
+  sitemap: /sitemap.xml
+
 generator_amp:
   templateDir: amp-template
   assetDistDir: amp-dist
