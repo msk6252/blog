@@ -53,7 +53,7 @@ end
 # 抜き出した緯度経度を引数にし、what3wordsに問い合わせを行う
 # [APIKEY]の部分はwhat3wordsで取得する必要がある
 def get_what3words(lat, lon)
-  uri = URI.parse("https://api.what3words.com/v3/convert-to-3wa?coordinates=#{lat}%2C#{lon}&language=ja&key=J14C8112")
+  uri = URI.parse("https://api.what3words.com/v3/convert-to-3wa?coordinates=#{lat}%2C#{lon}&language=ja&key=[APIKEY]")
   json = Net::HTTP.get(uri)
   result = JSON.parse(json)
 end
